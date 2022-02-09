@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.narvbar{
+    background-color: #ffffff;
+     box-shadow: 0px 5px 10px silver;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ a{
+    text-decoration: none;
+    color: #282828;
+    font-weight: 600;
+    margin-right: 80px;
+}  
+
+.or{
+    color: white;
+background-color: rgb(236, 93, 41);
+padding: 10px 30px;
+border-radius: 10px;
+
+
+}
+.or:hover{
+background-color: white;
+
+
+}
+.narvbar_links a:hover{
+    color: rgb(230, 101, 54);
+    
+}
+
+.narvbar img{
+    width: 250px;
+    height: 200px;
+
+}
+
+/* cards section */
+
+.cards{
+    margin: 30px o;
+    padding: 30px;
+   width: 250px;
+   height: 200px;
+   box-shadow: 0px 5px 10px silver;
+  justify-content: center;
+  background-color: #f5f5f5;
+  box-sizing: border-box;
+  border-radius: 5px;
+
+}
+
+.price{
+    color: orangered;
+    font-weight: 700;
+    margin: 15px 0;
+}
+
+.card_flex{
+    padding: 40px;
+  
+    display: flex;
+}
+
+.card_grid{
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    grid-gap: 10px;
+    flex:3
+  
+}
+/* .rightside{
+    
+} */
+
+.right{
+    width: 400px;
+    height: 430px;
+    flex:2;
+    margin-left: 30px;
+}
+
+.right h2{
+margin-bottom: 15px;
+color: orangered;
+}
+.right p{
+margin-bottom:15px;
+}
